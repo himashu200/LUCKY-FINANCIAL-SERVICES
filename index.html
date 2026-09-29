@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LUCKY FINANCIAL SERVICES | Finance, Mutual Funds &amp; Insurance – Chinsurah, Hooghly</title>
+<meta name="description" content="LUCKY FINANCIAL SERVICES – Your trusted partner for Finance, Mutual Funds and Insurance in Chinsurah, Hooghly. Call 7003829241." />
+<meta name="keywords" content="Lucky Financial Services, Mutual Funds Chinsurah, Insurance Hooghly, Finance Advisor Chinsurah, MF distributor Hooghly" />
+<meta name="author" content="LUCKY FINANCIAL SERVICES" />
+
+<style>
+/* ============ RESET & BASE ============ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root{
+  --navy:      #0b2545;
+  --navy-2:    #123a6b;
+  --gold:      #f0a500;
+  --gold-dark: #d18e00;
+  --light:     #f5f8fc;
+  --text:      #22303f;
+  --muted:     #5c6b7a;
+  --white:     #ffffff;
+  --border:    #e2e8f0;
+  --shadow:    0 10px 30px rgba(11,37,69,.10);
+  --radius:    14px;
+}
+
+html { scroll-behavior: smooth; }
+
+body{
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--text);
+  background: var(--white);
+  line-height: 1.7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+
+.container{
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ============ TOP BAR ============ */
+.topbar{
+  background: var(--navy);
+  color: #cfe0f5;
+  font-size: 14px;
+  padding: 8px 0;
+}
+.topbar .container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar a { color: #cfe0f5; }
+.topbar a:hover { color: var(--gold); }
+.topbar span { display: inline-flex; align-items: center; gap: 6px; }
+
+/* ============ HEADER ============ */
+.site-header{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 2px 12px rgba(11,37,69,.06);
+}
+.header-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 14px 0;
+}
+
+.brand{ display: flex; align-items: center; gap: 12px; }
+.brand-mark{
+  width: 50px; height: 50px; flex: 0 0 50px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--navy), var(--navy-2));
+  color: var(--gold);
+  display: grid; place-items: center;
+  font-weight: 800; font-size: 22px;
+  letter-spacing: -.5px;
+  box-shadow: 0 6px 16px rgba(11,37,69,.25);
+}
+.brand-text b{
+  display: block;
+  font-size: 19px;
+  letter-spacing: .4px;
+  color: var(--navy);
+  line-height: 1.15;
+}
+.brand-text small{
+  display: block;
+  font-size: 11.5px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+/* Nav */
+.nav-toggle{
+  display: none;
+  background: var(--navy);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 44px; height: 42px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.main-nav ul{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.main-nav a{
+  display: block;
+  padding: 9px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--navy);
+  transition: .2s;
+  cursor: pointer;
+}
+.main-nav a:hover{ background: var(--light); color: var(--navy-2); }
+.main-nav a.active{ background: var(--navy); color: #fff; }
+.main-nav a.nav-cta{
+  background: var(--gold);
+  color: #1a1a1a;
+}
+.main-nav a.nav-cta:hover{ background: var(--gold-dark); color: #1a1a1a; }
+
+/* ============ PAGES ============ */
+.page{ display: none; animation: fade .35s ease; }
+.page.active{ display: block; }
+@keyframes fade{ from{opacity:0; transform: translateY(8px);} to{opacity:1; transform:none;} }
+
+/* ============ HERO ============ */
+.hero{
+  background:
+    linear-gradient(115deg, rgba(11,37,69,.94) 0%, rgba(18,58,107,.88) 55%, rgba(11,37,69,.92) 100%),
+    radial-gradient(circle at 82% 20%, rgba(240,165,0,.35), transparent 55%);
+  color: #fff;
+  padding: 78px 0 88px;
+  position: relative;
+  overflow: hidden;
+}
+.hero::after{
+  content:"";
+  position:absolute; right:-120px; bottom:-140px;
+  width: 420px; height: 420px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(240,165,0,.20), transparent 65%);
+}
+.hero-grid{
+  display: grid;
+  grid-template-columns: 1.15fr .85fr;
+  gap: 48px;
+  align-items: center;
+  position: relative; z-index: 2;
+}
+.hero .pill{
+  display: inline-block;
+  background: rgba(240,165,0,.16);
+  border: 1px solid rgba(240,165,0,.5);
+  color: var(--gold);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.hero h1{
+  font-size: clamp(2rem, 4.4vw, 3.1rem);
+  line-height: 1.18;
+  font-weight: 800;
+  margin-bottom: 18px;
+  letter-spacing: -.5px;
+}
+.hero h1 span{ color: var(--gold); }
+.hero p.lead{
+  font-size: 17.5px;
+  color: #d6e2f2;
+  max-width: 560px;
+  margin-bottom: 30px;
+}
+.hero-actions{ display: flex; flex-wrap: wrap; gap: 14px; }
+
+.btn{
+  display: inline-block;
+  padding: 13px 28px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 15px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: .22s;
+  text-align: center;
+}
+.btn-gold{ background: var(--gold); color: #17202b; }
+.btn-gold:hover{ background: var(--gold-dark); transform: translateY(-2px); box-shadow: 0 10px 22px rgba(240,165,0,.35); }
+.btn-outline{ border-color: rgba(255,255,255,.55); color: #fff; }
+.btn-outline:hover{ background: #fff; color: var(--navy); border-color: #fff; }
+.btn-navy{ background: var(--navy); color: #fff; }
+.btn-navy:hover{ background: var(--navy-2); transform: translateY(-2px); }
+
+.hero-card{
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 20px;
+  padding: 28px;
+  backdrop-filter: blur(6px);
+}
+.hero-card h3{
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: var(--gold);
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+.hero-card ul li{
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 11px 0;
+  border-bottom: 1px dashed rgba(255,255,255,.16);
+  font-size: 15.2px;
+  color: #e4edf9;
+}
+.hero-card ul li:last-child{ border-bottom: none; }
+.hero-card ul li i{
+  color: var(--gold);
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* ============ SECTIONS ============ */
+.section{ padding: 72px 0; }
+.section.alt{ background: var(--light); }
+
+.section-head{
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 48px;
+}
+.section-head .eyebrow{
+  display: inline-block;
+  color: var(--gold-dark);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.section-head h2{
+  font-size: clamp(1.6rem, 3vw, 2.25rem);
+  color: var(--navy);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -.4px;
+  margin-bottom: 12px;
+}
+.section-head p{ color: var(--muted); font-size: 16.5px; }
+
+/* Cards grid */
+.grid{ display: grid; gap: 26px; }
+.grid-3{ grid-template-columns: repeat(3, 1fr); }
+.grid-2{ grid-template-columns: repeat(2, 1fr); }
+.grid-4{ grid-template-columns: repeat(4, 1fr); }
+
+.card{
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 30px 26px;
+  transition: .25s;
+  height: 100%;
+}
+.card:hover{
+  transform: translateY(-6px);
+  box-shadow: var(--shadow);
+  border-color: #cbd9ea;
+}
+.card .icon{
+  width: 58px; height: 58px;
+  border-radius: 14px;
+  display: grid; place-items: center;
+  font-size: 26px;
+  margin-bottom: 18px;
+  background: linear-gradient(135deg, #eaf1fb, #d8e6f8);
+  color: var(--navy);
+}
+.card h3{
+  font-size: 18.5px;
+  color: var(--navy);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.card p{ color: var(--muted); font-size: 15.2px; }
+.card ul.ticks{ margin-top: 14px; }
+.card ul.ticks li{
+  position: relative;
+  padding-left: 24px;
+  font-size: 14.6px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.card ul.ticks li::before{
+  content: "✓";
+  position: absolute; left: 0; top: 0;
+  color: var(--gold-dark);
+  font-weight: 800;
+}
+
+/* Stats strip */
+.stats{
+  background: linear-gradient(120deg, var(--navy), var(--navy-2));
+  color: #fff;
+  padding: 52px 0;
+}
+.stats .grid-4{ text-align: center; gap: 20px; }
+.stat b{
+  display: block;
+  font-size: 2rem;
+  color: var(--gold);
+  font-weight: 800;
+  line-height: 1.1;
+}
+.stat span{
+  font-size: 14px;
+  color: #c9d9ee;
+  letter-spacing: .5px;
+}
+
+/* Content typography (policy pages) */
+.doc{
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 46px 48px;
+  box-shadow: 0 4px 18px rgba(11,37,69,.05);
+}
+.doc h1{
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  color: var(--navy);
+  margin-bottom: 6px;
+  font-weight: 800;
+}
+.doc .updated{
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 26px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+.doc h2{
+  font-size: 18px;
+  color: var(--navy);
+  margin: 30px 0 10px;
+  font-weight: 700;
+}
+.doc h3{
+  font-size: 16px;
+  color: var(--navy-2);
+  margin: 20px 0 8px;
+  font-weight: 700;
+}
+.doc p, .doc li{ color: #3c4a58; font-size: 15.4px; }
+.doc p{ margin-bottom: 12px; }
+.doc ul, .doc ol{ margin: 0 0 14px 22px; }
+.doc ul li{ list-style: disc; margin-bottom: 7px; }
+.doc ol li{ list-style: decimal; margin-bottom: 7px; }
+.doc a{ color: var(--navy-2); font-weight: 600; text-decoration: underline; }
+.doc .note{
+  background: #fff8e6;
+  border-left: 4px solid var(--gold);
+  padding: 16px 20px;
+  border-radius: 8px;
+  margin: 18px 0;
+  font-size: 14.8px;
+  color: #5a4a1d;
+}
+
+/* Contact */
+.contact-grid{
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 36px;
+  align-items: start;
+}
+.info-item{
+  display: flex;
+  gap: 16px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--white);
+  margin-bottom: 16px;
+  transition: .2s;
+}
+.info-item:hover{ box-shadow: var(--shadow); border-color: #cbd9ea; }
+.info-item .ic{
+  flex: 0 0 46px;
+  width: 46px; height: 46px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--navy), var(--navy-2));
+  color: var(--gold);
+  display: grid; place-items: center;
+  font-size: 19px;
+}
+.info-item h4{
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--muted);
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+.info-item p, .info-item a{
+  font-size: 15.8px;
+  color: var(--navy);
+  font-weight: 600;
+  line-height: 1.5;
+  word-break: break-word;
+}
+.info-item a:hover{ color: var(--gold-dark); }
+
+.form-card{
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  box-shadow: 0 4px 18px rgba(11,37,69,.05);
+}
+.form-card h3{
+  color: var(--navy);
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: 800;
+}
+.form-card p.sub{ color: var(--muted); font-size: 14.6px; margin-bottom: 22px; }
+
+.field{ margin-bottom: 16px; }
+.field label{
+  display: block;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+.field input, .field select, .field textarea{
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.6px solid var(--border);
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: inherit;
+  color: var(--text);
+  background: #fbfcfe;
+  transition: .2s;
+}
+.field input:focus, .field select:focus, .field textarea:focus{
+  outline: none;
+  border-color: var(--navy-2);
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(18,58,107,.09);
+}
+.field textarea{ resize: vertical; min-height: 110px; }
+.form-note{ font-size: 12.8px; color: var(--muted); margin-top: 12px; }
+
+/* CTA band */
+.cta-band{
+  background: linear-gradient(120deg, var(--navy), var(--navy-2));
+  color: #fff;
+  border-radius: 18px;
+  padding: 44px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+.cta-band h3{ font-size: 1.5rem; font-weight: 800; margin-bottom: 6px; }
+.cta-band p{ color: #cfdcee; font-size: 15.5px; }
+
+/* Footer */
+.site-footer{
+  background: #081a33;
+  color: #a9bdd6;
+  padding: 56px 0 0;
+  font-size: 14.6px;
+}
+.footer-grid{
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+  gap: 34px;
+  padding-bottom: 40px;
+}
+.site-footer h4{
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: .6px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.site-footer .f-brand{
+  display: flex; align-items: center; gap: 12px; margin-bottom: 16px;
+}
+.site-footer .f-brand .brand-mark{ background: linear-gradient(135deg, #123a6b, #1c4d88); }
+.site-footer .f-brand b{ color: #fff; font-size: 17px; }
+.site-footer p{ color: #9db2cc; }
+.site-footer ul li{ margin-bottom: 9px; }
+.site-footer ul li a{ cursor: pointer; transition: .2s; }
+.site-footer ul li a:hover{ color: var(--gold); padding-left: 4px; }
+.site-footer .f-contact li{
+  display: flex; gap: 10px; align-items: flex-start; margin-bottom: 12px;
+}
+.site-footer .f-contact span.i{ color: var(--gold); }
+.footer-bottom{
+  border-top: 1px solid rgba(255,255,255,.10);
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13.6px;
+  color: #8ea5c0;
+}
+.footer-bottom a{ cursor: pointer; }
+.footer-bottom a:hover{ color: var(--gold); }
+
+.disclaimer{
+  background: #0d2444;
+  border-top: 1px solid rgba(255,255,255,.08);
+  padding: 18px 0;
+  font-size: 12.6px;
+  color: #8ea5c0;
+  line-height: 1.65;
+}
+.disclaimer strong{ color: #c4d4e8; }
+
+/* Floating call button */
+.float-call{
+  position: fixed;
+  right: 20px; bottom: 22px;
+  z-index: 200;
+  background: var(--gold);
+  color: #17202b;
+  width: 58px; height: 58px;
+  border-radius: 50%;
+  display: grid; place-items: center;
+  font-size: 24px;
+  box-shadow: 0 8px 24px rgba(240,165,0,.5);
+  transition: .25s;
+}
+.float-call:hover{ transform: scale(1.08); }
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 980px){
+  .hero-grid{ grid-template-columns: 1fr; gap: 34px; }
+  .grid-4{ grid-template-columns: repeat(2, 1fr); }
+  .grid-3{ grid-template-columns: repeat(2, 1fr); }
+  .contact-grid{ grid-template-columns: 1fr; }
+  .footer-grid{ grid-template-columns: 1fr 1fr; }
+  .doc{ padding: 34px 28px; }
+}
+
+@media (max-width: 760px){
+  .nav-toggle{ display: block; }
+  .main-nav{
+    display: none;
+    position: absolute;
+    left: 0; right: 0; top: 100%;
+    background: #fff;
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 12px 26px rgba(11,37,69,.12);
+    padding: 10px 16px 18px;
+  }
+  .main-nav.open{ display: block; }
+  .main-nav ul{ flex-direction: column; align-items: stretch; gap: 2px; }
+  .main-nav a{ padding: 12px 14px; }
+  .header-inner{ position: relative; }
+  .topbar .container{ justify-content: center; text-align: center; font-size: 13px; }
+  .grid-3, .grid-2{ grid-template-columns: 1fr; }
+  .section{ padding: 54px 0; }
+  .hero{ padding: 56px 0 62px; }
+  .cta-band{ padding: 32px 24px; }
+  .brand-text b{ font-size: 16.5px; }
+}
+
+@media (max-width: 520px){
+  .grid-4{ grid-template-columns: 1fr; }
+  .footer-grid{ grid-template-columns: 1fr; gap: 26px; }
+  .hero-card{ padding: 22px; }
+  .form-card{ padding: 24px 20px; }
+  .doc{ padding: 26px 20px; }
+  .brand-mark{ width: 44px; height: 44px; flex-basis: 44px; font-size: 19px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ================= TOP BAR ================= -->
+<div class="topbar">
+  <div class="container">
+    <span>📍 245, Phulpukur Lane, Chinsurah, Hooghly – 712101</span>
+    <span>
+      📞 <a href="tel:+917003829241">7003829241</a> &nbsp;|&nbsp;
+      ✉️ <a href="mailto:luckyfinancialservices48@gmail.com">luckyfinancialservices48@gmail.com</a>
+    </span>
+  </div>
+</div>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#home" onclick="go('home'); return false;">
+      <div class="brand-mark">LF</div>
+      <div class="brand-text">
+        <b>LUCKY FINANCIAL SERVICES</b>
+        <small>Finance • Mutual Funds • Insurance</small>
+      </div>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a data-page="home"     onclick="go('home')">Home</a></li>
+        <li><a data-page="about"    onclick="go('about')">About Us</a></li>
+        <li><a data-page="services" onclick="go('services')">Services</a></li>
+        <li><a data-page="privacy"  onclick="go('privacy')">Privacy Policy</a></li>
+        <li><a data-page="terms"    onclick="go('terms')">Terms &amp; Conditions</a></li>
+        <li><a data-page="contact"  class="nav-cta" onclick="go('contact')">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ============================================================
+     HOME
+============================================================ -->
+<section id="page-home" class="page active">
+
+  <div class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="pill">Trusted Since Day One</span>
+        <h1>Secure Your Future with <span>Smart Financial Planning</span></h1>
+        <p class="lead">
+          LUCKY FINANCIAL SERVICES is your trusted local partner in Chinsurah, Hooghly for
+          <strong>Finance</strong>, <strong>Mutual Funds</strong> and <strong>Insurance</strong> solutions —
+          helping individuals and families grow, protect and manage their hard-earned money with confidence.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" onclick="go('contact')">Get Free Consultation</a>
+          <a class="btn btn-outline" href="tel:+917003829241">📞 Call 7003829241</a>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <h3>Why Clients Choose Us</h3>
+        <ul>
+          <li><i>✓</i> Personalised financial planning for every budget</li>
+          <li><i>✓</i> Wide range of Mutual Fund &amp; Insurance products</li>
+          <li><i>✓</i> Transparent, unbiased and honest guidance</li>
+          <li><i>✓</i> Friendly local support in Chinsurah, Hooghly</li>
+          <li><i>✓</i> Long-term relationship, not one-time selling</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+
+  <!-- Services overview -->
+  <div class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">What We Offer</span>
+        <h2>Complete Financial Solutions Under One Roof</h2>
+        <p>From growing your wealth to protecting your family, we help you make informed money decisions at every stage of life.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <article class="card">
+          <div class="icon">💰</div>
+          <h3>Finance &amp; Loans</h3>
+          <p>Guidance on personal finance, savings planning and loan assistance so you can fund your goals without stress.</p>
+          <ul class="ticks">
+            <li>Personal &amp; home loan assistance</li>
+            <li>Savings &amp; goal-based planning</li>
+            <li>Documentation support</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="icon">📈</div>
+          <h3>Mutual Funds</h3>
+          <p>Systematic and disciplined investing through SIP and lump-sum options suited to your risk profile and horizon.</p>
+          <ul class="ticks">
+            <li>SIP &amp; Lump-sum investments</li>
+            <li>Equity, Debt &amp; Hybrid funds</li>
+            <li>Portfolio review &amp; rebalancing</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="icon">🛡️</div>
+          <h3>Insurance</h3>
+          <p>Protect what matters most with the right life and health insurance cover for you and your family.</p>
+          <ul class="ticks">
+            <li>Life &amp; Term Insurance</li>
+            <li>Health &amp; Mediclaim Plans</li>
+            <li>Claim guidance &amp; support</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats">
+    <div class="container">
+      <div class="grid grid-4">
+        <div class="stat"><b>1000+</b><span>Happy Clients</span></div>
+        <div class="stat"><b>10+</b><span>Years of Experience</span></div>
+        <div class="stat"><b>50+</b><span>Products &amp; Plans</span></div>
+        <div class="stat"><b>100%</b><span>Client-First Approach</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Approach -->
+  <div class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Our Approach</span>
+        <h2>Simple, Transparent &amp; Personalised</h2>
+        <p>We believe financial advice should be easy to understand and easy to act on.</p>
+      </div>
+
+      <div class="grid grid-4">
+        <div class="card">
+          <div class="icon">1️⃣</div>
+          <h3>Understand</h3>
+          <p>We listen to your goals, income, responsibilities and risk appetite before suggesting anything.</p>
+        </div>
+        <div class="card">
+          <div class="icon">2️⃣</div>
+          <h3>Plan</h3>
+          <p>We build a clear, practical plan covering investment, protection and savings needs.</p>
+        </div>
+        <div class="card">
+          <div class="icon">3️⃣</div>
+          <h3>Execute</h3>
+          <p>We help you complete paperwork and start your investments or policies smoothly.</p>
+        </div>
+        <div class="card">
+          <div class="icon">4️⃣</div>
+          <h3>Support</h3>
+          <p>We stay with you for reviews, renewals and claims — year after year.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="section">
+    <div class="container">
+      <div class="cta-band">
+        <div>
+          <h3>Ready to plan your financial future?</h3>
+          <p>Talk to us today — the first consultation is absolutely free.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="tel:+917003829241">📞 7003829241</a>
+          <a class="btn btn-outline" onclick="go('contact')">Send Enquiry</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============================================================
+     ABOUT US
+============================================================ -->
+<section id="page-about" class="page">
+  <div class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">About Us</span>
+        <h2>LUCKY FINANCIAL SERVICES</h2>
+        <p>Your trusted financial partner in Chinsurah, Hooghly.</p>
+      </div>
+
+      <div class="grid grid-2" style="align-items:center; gap:40px;">
+        <div>
+          <h3 style="color:var(--navy); font-size:22px; margin-bottom:14px;">Who We Are</h3>
+          <p style="color:var(--muted); margin-bottom:14px;">
+            <strong>LUCKY FINANCIAL SERVICES</strong> is a financial services firm based at
+            245, Phulpukur Lane, Chinsurah, Hooghly – 712101, West Bengal. We deal in
+            <strong>Finance</strong>, <strong>Mutual Funds (MF)</strong> and <strong>Insurance</strong>,
+            offering individuals and families a single, reliable point of contact for all their
+            money-related needs.
+          </p>
+          <p style="color:var(--muted); margin-bottom:14px;">
+            Our philosophy is simple — <em>understand the client first, then recommend</em>. Every person
+            has a different income, responsibility and dream. That is why we never offer a
+            one-size-fits-all solution. Instead, we take time to understand your situation and
+            then suggest products that genuinely fit your goals and comfort level.
+          </p>
+          <p style="color:var(--muted);">
+            Whether you are a young professional starting your first SIP, a parent planning for your
+            child's education, or a family looking for the right health and life cover, we are here
+            to guide you at every step — with honesty, patience and complete transparency.
+          </p>
+        </div>
+
+        <div class="card" style="background:linear-gradient(135deg,var(--navy),var(--navy-2)); color:#fff; border:none;">
+          <h3 style="color:#fff; font-size:19px; margin-bottom:16px;">Our Core Values</h3>
+          <ul style="color:#d4e1f2;">
+            <li style="padding:10px 0; border-bottom:1px dashed rgba(255,255,255,.2);">
+              <strong style="color:var(--gold);">Trust</strong> — Your interest always comes first.
+            </li>
+            <li style="padding:10px 0; border-bottom:1px dashed rgba(255,255,255,.2);">
+              <strong style="color:var(--gold);">Transparency</strong> — Clear communication, no hidden agenda.
+            </li>
+            <li style="padding:10px 0; border-bottom:1px dashed rgba(255,255,255,.2);">
+              <strong style="color:var(--gold);">Commitment</strong> — Support that continues after the sale.
+            </li>
+            <li style="padding:10px 0; border-bottom:1px dashed rgba(255,255,255,.2);">
+              <strong style="color:var(--gold);">Discipline</strong> — Encouraging long-term, goal-based investing.
+            </li>
+            <li style="padding:10px 0;">
+              <strong style="color:var(--gold);">Respect</strong> — Every client, every budget, treated equally.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Our Mission &amp; Vision</span>
+        <h2>Building Financial Confidence</h2>
+      </div>
+      <div class="grid grid-2">
+        <div class="card">
+          <div class="icon">🎯</div>
+          <h3>Our Mission</h3>
+          <p>
+            To make quality financial advice accessible to every household in Hooghly by providing
+            simple, honest and personalised guidance on investments, insurance and finance — so that
+            no family is left unprepared for the future.
+          </p>
+        </div>
+        <div class="card">
+          <div class="icon">🔭</div>
+          <h3>Our Vision</h3>
+          <p>
+            To become the most trusted and preferred financial services partner in the region — known
+            not for the number of products we sell, but for the number of families we help secure
+            and prosper.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="cta-band">
+        <div>
+          <h3>Let's build your financial plan together</h3>
+          <p>Reach out and speak with our advisor today.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-gold" onclick="go('contact')">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SERVICES
+============================================================ -->
+<section id="page-services" class="page">
+  <div class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Our Services</span>
+        <h2>Finance, Mutual Funds &amp; Insurance</h2>
+        <p>Comprehensive solutions designed to help you grow, protect and manage your wealth.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <article class="card">
+          <div class="icon">💰</div>
+          <h3>Finance Services</h3>
+          <p>Practical financial guidance to help you organise your money and meet your short and long-term goals.</p>
+          <ul class="ticks">
+            <li>Personal financial planning</li>
+            <li>Savings &amp; investment road-map</li>
+            <li>Loan &amp; documentation assistance</li>
+            <li>Goal-based planning (education, marriage, home)</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="icon">📈</div>
+          <h3>Mutual Funds (MF)</h3>
+          <p>Professionally managed investment options that help your money grow steadily over time.</p>
+          <ul class="ticks">
+            <li>SIP (Systematic Investment Plan)</li>
+            <li>Lump-sum investments</li>
+            <li>Equity, Debt, Hybrid &amp; Index funds</li>
+            <li>ELSS / tax-saving funds</li>
+            <li>Portfolio review &amp; rebalancing</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="icon">🛡️</div>
+          <h3>Insurance Solutions</h3>
+          <p>Reliable protection plans so that a sudden event never derails your family's future.</p>
+          <ul class="ticks">
+            <li>Term Life Insurance</li>
+            <li>Endowment &amp; Money-back plans</li>
+            <li>Health / Mediclaim Insurance</li>
+            <li>Accident &amp; Personal cover</li>
+            <li>Policy renewal &amp; claim assistance</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <div class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">How We Work</span>
+        <h2>A Smooth, Hassle-Free Process</h2>
+      </div>
+      <div class="grid grid-4">
+        <div class="card">
+          <div class="icon">📞</div>
+          <h3>1. Reach Out</h3>
+          <p>Call, email or visit our office in Chinsurah and tell us what you need.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🧾</div>
+          <h3>2. Free Discussion</h3>
+          <p>We discuss your goals, income, liabilities and risk comfort — at no cost.</p>
+        </div>
+        <div class="card">
+          <div class="icon">📋</div>
+          <h3>3. Suitable Plan</h3>
+          <p>We recommend products that actually match your requirement and budget.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🤝</div>
+          <h3>4. Ongoing Support</h3>
+          <p>We assist with paperwork, renewals, reviews and claims whenever needed.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="cta-band">
+        <div>
+          <h3>Not sure which plan suits you?</h3>
+          <p>Let our advisor help you decide — free of cost.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="tel:+917003829241">📞 7003829241</a>
+          <a class="btn btn-outline" onclick="go('contact')">Enquire Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PRIVACY POLICY
+============================================================ -->
+<section id="page-privacy" class="page">
+  <div class="section">
+    <div class="container">
+      <div class="doc">
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last Updated: January 2025 &nbsp;|&nbsp; LUCKY FINANCIAL SERVICES</p>
+
+        <p>
+          At <strong>LUCKY FINANCIAL SERVICES</strong> ("we", "us", "our"), your privacy is important to us.
+          This Privacy Policy explains how we collect, use, store and protect the personal information you
+          share with us when you visit our office, contact us by phone or email, or use our services related
+          to <strong>Finance, Mutual Funds and Insurance</strong>.
+        </p>
+        <p>
+          By using our services or sharing your information with us, you agree to the terms of this
+          Privacy Policy.
+        </p>
+
+        <h2>1. Information We Collect</h2>
+        <p>We may collect the following categories of information:</p>
+        <ul>
+          <li><strong>Personal details:</strong> Name, date of birth, gender, address, PIN code, mobile number and email address.</li>
+          <li><strong>Identity documents:</strong> PAN, Aadhaar, photograph and other KYC documents required by law.</li>
+          <li><strong>Financial information:</strong> Bank account details, income details, investment preferences and existing policy/investment details.</li>
+          <li><strong>Nominee &amp; family details:</strong> Information required for insurance or investment applications.</li>
+          <li><strong>Communication records:</strong> Details of your enquiries, calls, emails and meetings with us.</li>
+        </ul>
+
+        <h2>2. How We Collect Information</h2>
+        <ul>
+          <li>Directly from you when you fill out forms or share documents.</li>
+          <li>Through phone calls, emails, WhatsApp or in-person meetings.</li>
+          <li>From authorised third parties such as banks, AMCs, insurance companies or registrar agencies, where required for processing your application.</li>
+        </ul>
+
+        <h2>3. Purpose of Using Your Information</h2>
+        <p>We use your information strictly for legitimate business purposes, including:</p>
+        <ul>
+          <li>To provide financial, mutual fund and insurance related services and advice.</li>
+          <li>To complete KYC verification and process applications, investments or policies.</li>
+          <li>To communicate with you about your investments, policies, renewals or claims.</li>
+          <li>To comply with legal, regulatory and statutory requirements.</li>
+          <li>To respond to your enquiries and provide customer support.</li>
+          <li>To maintain internal records and improve our services.</li>
+        </ul>
+
+        <h2>4. Sharing of Information</h2>
+        <p>
+          We do <strong>not sell, rent or trade</strong> your personal information. Your information may be
+          shared only in the following circumstances:
+        </p>
+        <ul>
+          <li>With Asset Management Companies (AMCs), insurance companies, banks, registrars and other financial institutions as necessary to process your request.</li>
+          <li>With regulatory authorities such as SEBI, IRDAI, AMFI, or government bodies when legally required.</li>
+          <li>With our authorised employees or representatives who need the information to serve you.</li>
+          <li>Where disclosure is required by law, court order or statutory obligation.</li>
+        </ul>
+
+        <h2>5. Data Security</h2>
+        <p>
+          We take reasonable physical, electronic and procedural measures to safeguard your personal
+          information against unauthorised access, loss, misuse or alteration. Access to your data is
+          limited to authorised persons only. However, please note that no method of transmission over
+          the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
+        </p>
+
+        <h2>6. Data Retention</h2>
+        <p>
+          We retain your personal information only for as long as necessary to fulfil the purposes
+          described in this policy, or as required by applicable laws and regulations. After this period,
+          information is securely disposed of or anonymised.
+        </p>
+
+        <h2>7. Cookies &amp; Website Data</h2>
+        <p>
+          Our website may use basic cookies or similar technologies to improve user experience and
+          understand site usage. Cookies do not contain personally identifiable information and can be
+          disabled through your browser settings at any time.
+        </p>
+
+        <h2>8. Your Rights</h2>
+        <p>Subject to applicable law, you have the right to:</p>
+        <ul>
+          <li>Request access to the personal information we hold about you.</li>
+          <li>Request correction of inaccurate or incomplete information.</li>
+          <li>Withdraw your consent for certain communications.</li>
+          <li>Request deletion of your data where it is no longer legally required to be retained.</li>
+        </ul>
+        <p>To exercise any of these rights, please contact us using the details given below.</p>
+
+        <h2>9. Third-Party Links</h2>
+        <p>
+          Our website may contain links to third-party websites such as AMC portals or insurance company
+          sites. We are not responsible for the privacy practices or content of those websites. We
+          encourage you to read their privacy policies separately.
+        </p>
+
+        <h2>10. Children's Privacy</h2>
+        <p>
+          Our services are intended for individuals above 18 years of age. We do not knowingly collect
+          personal information from minors except as part of a policy or investment application made by
+          a parent or legal guardian.
+        </p>
+
+        <h2>11. Changes to This Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time to reflect changes in our practices or legal
+          requirements. The revised version will be posted on this page with an updated date. We encourage
+          you to review this page periodically.
+        </p>
+
+        <h2>12. Contact Us</h2>
+        <div class="note">
+          <strong>LUCKY FINANCIAL SERVICES</strong><br>
+          245, Phulpukur Lane, Chinsurah, Hooghly – 712101, West Bengal, India<br>
+          📞 Mobile: <a href="tel:+917003829241">7003829241</a><br>
+          ✉️ Email: <a href="mailto:luckyfinancialservices48@gmail.com">luckyfinancialservices48@gmail.com</a>
+        </div>
+
+        <p style="margin-top:24px; font-size:14.4px; color:var(--muted);">
+          If you have any questions or concerns about this Privacy Policy or how your information is
+          handled, please contact us at the details above and we will be happy to assist you.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TERMS & CONDITIONS
+============================================================ -->
+<section id="page-terms" class="page">
+  <div class="section">
+    <div class="container">
+      <div class="doc">
+        <h1>Terms &amp; Conditions</h1>
+        <p class="updated">Last Updated: January 2025 &nbsp;|&nbsp; LUCKY FINANCIAL SERVICES</p>
+
+        <p>
+          Welcome to <strong>LUCKY FINANCIAL SERVICES</strong>. These Terms and Conditions ("Terms")
+          govern your access to and use of our website, services and products related to
+          <strong>Finance, Mutual Funds and Insurance</strong>. By accessing this website or availing
+          our services, you agree to be bound by these Terms. If you do not agree, please do not use
+          this website or our services.
+        </p>
+
+        <h2>1. About Us</h2>
+        <p>
+          LUCKY FINANCIAL SERVICES is a financial services provider located at 245, Phulpukur Lane,
+          Chinsurah, Hooghly – 712101, West Bengal, India, engaged in the distribution and facilitation
+          of financial products including Mutual Funds and Insurance, and in providing related
+          financial guidance.
+        </p>
+
+        <h2>2. Eligibility</h2>
+        <ul>
+          <li>You must be at least 18 years of age to avail our services.</li>
+          <li>You must be legally competent to enter into a binding contract under the Indian Contract Act, 1872.</li>
+          <li>You agree to provide true, accurate, current and complete information at all times.</li>
+        </ul>
+
+        <h2>3. Nature of Services</h2>
+        <p>
+          We act as a facilitator / distributor / advisor for financial products offered by third-party
+          institutions such as Asset Management Companies, Insurance Companies, Banks and NBFCs. All
+          products are subject to the terms, conditions and approval of the respective product provider.
+        </p>
+        <p>
+          We do not guarantee the issuance, approval, sanction or performance of any product. Final
+          acceptance or rejection of any application rests solely with the respective financial
+          institution.
+        </p>
+
+        <h2>4. No Investment Guarantee</h2>
+        <div class="note">
+          <strong>Important:</strong> Mutual Fund investments are subject to market risks. Please read all
+          scheme-related documents carefully before investing. Past performance is not indicative of
+          future results. The value of investments may go up or down, and you may get back less than
+          what you invested.
+        </div>
+        <p>
+          Any information, illustration, calculator output or suggestion provided on this website or by
+          our representatives is for general informational purposes only and should not be construed as
+          a guarantee of returns or as the sole basis for any financial decision.
+        </p>
+
+        <h2>5. Insurance Products</h2>
+        <ul>
+          <li>Insurance is the subject matter of solicitation.</li>
+          <li>All insurance policies are governed by the terms of the respective insurer and the policy document.</li>
+          <li>Premium amounts, coverage, exclusions and claim settlement are decided solely by the insurer.</li>
+          <li>We assist in documentation and claim support, but we do not control or guarantee claim outcomes.</li>
+        </ul>
+
+        <h2>6. Client Responsibilities</h2>
+        <p>You agree that you will:</p>
+        <ul>
+          <li>Provide accurate and complete personal, financial and KYC information.</li>
+          <li>Not use our website or services for any unlawful, fraudulent or misleading purpose.</li>
+          <li>Read all product documents, offer documents and policy terms before signing or investing.</li>
+          <li>Keep your login details, documents and account information confidential and secure.</li>
+          <li>Inform us promptly of any change in your contact details, nominee or financial situation.</li>
+        </ul>
+
+        <h2>7. Fees &amp; Charges</h2>
+        <p>
+          Our services may be provided free of cost to clients in certain cases, or we may receive
+          commission / brokerage / remuneration from the respective product providers as per applicable
+          regulations. Any fee or charge applicable to you, if any, will be communicated to you in advance.
+          Statutory taxes, stamp duty and product-related charges, if applicable, are payable by you.
+        </p>
+
+        <h2>8. Intellectual Property</h2>
+        <p>
+          All content on this website — including text, graphics, logos, layout, design and the name
+          "LUCKY FINANCIAL SERVICES" — is the property of LUCKY FINANCIAL SERVICES and is protected by
+          applicable intellectual property laws. You may not copy, reproduce, modify, distribute or use
+          any content without our prior written permission.
+        </p>
+
+        <h2>9. Limitation of Liability</h2>
+        <p>
+          To the maximum extent permitted by law, LUCKY FINANCIAL SERVICES, its owners, employees and
+          representatives shall not be liable for any direct, indirect, incidental, consequential or
+          special loss or damage arising out of:
+        </p>
+        <ul>
+          <li>Any investment decision taken by you based on information provided by us.</li>
+          <li>Market fluctuations, fund performance, or rejection of any application.</li>
+          <li>Any technical error, interruption, virus or unauthorised access to the website.</li>
+          <li>Delays or defaults caused by third-party institutions, banks, AMCs or insurers.</li>
+        </ul>
+
+        <h2>10. Third-Party Websites &amp; Services</h2>
+        <p>
+          This website may contain links to third-party websites. We do not endorse and are not
+          responsible for the content, accuracy, privacy practices or services of such third parties.
+          Accessing them is entirely at your own risk.
+        </p>
+
+        <h2>11. Privacy</h2>
+        <p>
+          Your use of our website and services is also governed by our
+          <a onclick="go('privacy')" style="cursor:pointer;">Privacy Policy</a>, which explains how we
+          collect and handle your personal information.
+        </p>
+
+        <h2>12. Termination</h2>
+        <p>
+          We reserve the right to refuse, suspend or terminate access to our website or services, without
+          prior notice, if we believe there has been a breach of these Terms, misuse of our services, or
+          involvement in any unlawful activity.
+        </p>
+
+        <h2>13. Modification of Terms</h2>
+        <p>
+          We may update, amend or modify these Terms at any time without prior notice. The revised Terms
+          will be effective immediately upon posting on this page. Your continued use of our website or
+          services after such changes constitutes your acceptance of the revised Terms.
+        </p>
+
+        <h2>14. Governing Law &amp; Jurisdiction</h2>
+        <p>
+          These Terms shall be governed by and construed in accordance with the laws of India. Any
+          dispute arising out of or relating to these Terms or our services shall be subject to the
+          exclusive jurisdiction of the competent courts at <strong>Hooghly, West Bengal, India</strong>.
+        </p>
+
+        <h2>15. Contact Information</h2>
+        <div class="note">
+          <strong>LUCKY FINANCIAL SERVICES</strong><br>
+          245, Phulpukur Lane, Chinsurah, Hooghly – 712101, West Bengal, India<br>
+          📞 Mobile: <a href="tel:+917003829241">7003829241</a><br>
+          ✉️ Email: <a href="mailto:luckyfinancialservices48@gmail.com">luckyfinancialservices48@gmail.com</a>
+        </div>
+
+        <p style="margin-top:24px; font-size:14.4px; color:var(--muted);">
+          By continuing to use our website and services, you acknowledge that you have read, understood
+          and agreed to these Terms and Conditions.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+============================================================ -->
+<section id="page-contact" class="page">
+  <div class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Get In Touch</span>
+        <h2>Contact LUCKY FINANCIAL SERVICES</h2>
+        <p>We're happy to answer your questions about Finance, Mutual Funds and Insurance. Reach out any time.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Contact info -->
+        <div>
+          <div class="info-item">
+            <div class="ic">📍</div>
+            <div>
+              <h4>Office Address</h4>
+              <p>245, Phulpukur Lane,<br>Chinsurah, Hooghly,<br>West Bengal – 712101</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="ic">📞</div>
+            <div>
+              <h4>Mobile</h4>
+              <p><a href="tel:+917003829241">+91 70038 29241</a></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="ic">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:luckyfinancialservices48@gmail.com">luckyfinancialservices48@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="ic">🕘</div>
+            <div>
+              <h4>Office Hours</h4>
+              <p>Monday – Saturday: 10:00 AM – 7:00 PM<br>Sunday: Closed</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="ic">🏢</div>
+            <div>
+              <h4>Business Nature</h4>
+              <p>Finance • Mutual Funds • Insurance</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact form -->
+        <div class="form-card">
+          <h3>Send Us a Message</h3>
+          <p class="sub">Fill in the form below and we'll get back to you shortly.</p>
+
+          <form id="contactForm" onsubmit="return sendMail(event);">
+            <div class="field">
+              <label for="cf-name">Full Name *</label>
+              <input type="text" id="cf-name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="field">
+              <label for="cf-mobile">Mobile Number *</label>
+              <input type="tel" id="cf-mobile" name="mobile" placeholder="10-digit mobile number"
+                     pattern="[0-9+\s-]{10,15}" required>
+            </div>
+
+            <div class="field">
+              <label for="cf-email">Email Address</label>
+              <input type="email" id="cf-email" name="email" placeholder="you@example.com">
+            </div>
+
+            <div class="field">
+              <label for="cf-subject">I am interested in *</label>
+              <select id="cf-subject" name="subject" required>
+                <option value="">-- Select a service --</option>
+                <option>Finance / Financial Planning</option>
+                <option>Mutual Funds (SIP / Investment)</option>
+                <option>Life Insurance</option>
+                <option>Health Insurance</option>
+                <option>Other Enquiry</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="cf-message">Your Message *</label>
+              <textarea id="cf-message" name="message" placeholder="Tell us briefly about your requirement..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-navy" style="width:100%;">Send Message</button>
+
+            <p class="form-note">
+              By submitting this form, you agree to our
+              <a onclick="go('privacy')" style="cursor:pointer; color:var(--navy-2); text-decoration:underline;">Privacy Policy</a>
+              and
+              <a onclick="go('terms')" style="cursor:pointer; color:var(--navy-2); text-decoration:underline;">Terms &amp; Conditions</a>.
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Map / location strip -->
+  <div class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Visit Us</span>
+        <h2>Find Our Office</h2>
+        <p>245, Phulpukur Lane, Chinsurah, Hooghly – 712101, West Bengal</p>
+      </div>
+      <div style="border-radius:16px; overflow:hidden; border:1px solid var(--border); box-shadow:var(--shadow);">
+        <iframe
+          title="LUCKY FINANCIAL SERVICES Location"
+          src="https://www.google.com/maps?q=245,+Phulpukur+Lane,+Chinsurah,+Hooghly,+712101&output=embed"
+          width="100%" height="360" style="border:0; display:block;"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div>
+        <div class="f-brand">
+          <div class="brand-mark">LF</div>
+          <b>LUCKY FINANCIAL SERVICES</b>
+        </div>
+        <p>
+          Your trusted partner for Finance, Mutual Funds and Insurance in Chinsurah, Hooghly.
+          We help individuals and families plan, protect and grow their wealth with honest,
+          personalised guidance.
+        </p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a onclick="go('home')">Home</a></li>
+          <li><a onclick="go('about')">About Us</a></li>
+          <li><a onclick="go('services')">Services</a></li>
+          <li><a onclick="go('contact')">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Our Services</h4>
+        <ul>
+          <li><a onclick="go('services')">Financial Planning</a></li>
+          <li><a onclick="go('services')">Mutual Funds &amp; SIP</a></li>
+          <li><a onclick="go('services')">Life Insurance</a></li>
+          <li><a onclick="go('services')">Health Insurance</a></li>
+          <li><a onclick="go('services')">Loan Assistance</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact Us</h4>
+        <ul class="f-contact">
+          <li>
+            <span class="i">📍</span>
+            <span>245, Phulpukur Lane, Chinsurah, Hooghly, West Bengal – 712101</span>
+          </li>
+          <li>
+            <span class="i">📞</span>
+            <span><a href="tel:+917003829241">7003829241</a></span>
+          </li>
+          <li>
+            <span class="i">✉️</span>
+            <span><a href="mailto:luckyfinancialservices48@gmail.com">luckyfinancialservices48@gmail.com</a></span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2025</span> <strong style="color:#dbe7f5;">LUCKY FINANCIAL SERVICES</strong>. All Rights Reserved.</span>
+      <span>
+        <a onclick="go('privacy')">Privacy Policy</a> &nbsp;•&nbsp;
+        <a onclick="go('terms')">Terms &amp; Conditions</a> &nbsp;•&nbsp;
+        <a onclick="go('contact')">Contact</a>
+      </span>
+    </div>
+  </div>
+
+  <div class="disclaimer">
+    <div class="container">
+      <strong>Disclaimer:</strong> Mutual Fund investments are subject to market risks. Please read all
+      scheme related documents carefully before investing. Insurance is the subject matter of solicitation.
+      Past performance is not indicative of future returns. LUCKY FINANCIAL SERVICES acts as a facilitator /
+      distributor of financial products and does not guarantee any returns or claim settlement. All products
+      are subject to the terms and conditions of the respective product providers.
+    </div>
+  </div>
+</footer>
+
+<!-- Floating call button -->
+<a class="float-call" href="tel:+917003829241" title="Call LUCKY FINANCIAL SERVICES" aria-label="Call us">📞</a>
+
+<script>
+/* ================= PAGE ROUTING ================= */
+const PAGES = ['home','about','services','privacy','terms','contact'];
+
+function go(page){
+  if(!PAGES.includes(page)) page = 'home';
+
+  document.querySelectorAll('.page').forEach(sec => sec.classList.remove('active'));
+  const target = document.getElementById('page-' + page);
+  if(target) target.classList.add('active');
+
+  // nav active state
+  document.querySelectorAll('.main-nav a').forEach(a => {
+    a.classList.toggle('active', a.dataset.page === page);
+  });
+
+  // close mobile nav
+  document.getElementById('mainNav').classList.remove('open');
+
+  // update hash + scroll to top
+  if(location.hash !== '#' + page) history.replaceState(null, '', '#' + page);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  // update document title
+  const titles = {
+    home:     'LUCKY FINANCIAL SERVICES | Finance, Mutual Funds & Insurance – Chinsurah, Hooghly',
+    about:    'About Us | LUCKY FINANCIAL SERVICES',
+    services: 'Our Services | LUCKY FINANCIAL SERVICES',
+    privacy:  'Privacy Policy | LUCKY FINANCIAL SERVICES',
+    terms:    'Terms & Conditions | LUCKY FINANCIAL SERVICES',
+    contact:  'Contact Us | LUCKY FINANCIAL SERVICES'
+  };
+  document.title = titles[page];
+}
+
+/* ================= MOBILE NAV ================= */
+document.getElementById('navToggle').addEventListener('click', function(){
+  document.getElementById('mainNav').classList.toggle('open');
+});
+
+/* ================= CONTACT FORM (mailto) ================= */
+function sendMail(e){
+  e.preventDefault();
+
+  const name    = document.getElementById('cf-name').value.trim();
+  const mobile  = document.getElementById('cf-mobile').value.trim();
+  const email   = document.getElementById('cf-email').value.trim();
+  const subject = document.getElementById('cf-subject').value;
+  const message = document.getElementById('cf-message').value.trim();
+
+  const mailSubject = 'Enquiry: ' + subject + ' - ' + name;
+  const mailBody =
+    'Name: ' + name + '\n' +
+    'Mobile: ' + mobile + '\n' +
+    'Email: ' + (email || 'Not provided') + '\n' +
+    'Interested In: ' + subject + '\n\n' +
+    'Message:\n' + message + '\n';
+
+  const mailto =
+    'mailto:luckyfinancialservices48@gmail.com' +
+    '?subject=' + encodeURIComponent(mailSubject) +
+    '&body=' + encodeURIComponent(mailBody);
+
+  window.location.href = mailto;
+  return false;
+}
+
+/* ================= INIT ================= */
+(function init(){
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const hash = location.hash.replace('#','');
+  go(PAGES.includes(hash) ? hash : 'home');
+
+  window.addEventListener('hashchange', function(){
+    const h = location.hash.replace('#','');
+    go(PAGES.includes(h) ? h : 'home');
+  });
+})();
+</script>
+
+</body>
+</html>
